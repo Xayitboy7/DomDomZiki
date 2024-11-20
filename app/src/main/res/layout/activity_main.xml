@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#20B2AA"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2F4F4F"
+        android:text="Harakatni tanlang"
+        android:textSize="24sp"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/rockButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/rock"
+        android:background="@drawable/ripple_effect"
+        android:contentDescription="Tosh"
+        android:scaleType="fitCenter"
+        android:layout_margin="8dp"/>
+
+    <ImageButton
+        android:id="@+id/paperButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/paper"
+        android:background="@drawable/ripple_effect"
+        android:contentDescription="Qog'oz"
+        android:scaleType="fitCenter"
+        android:layout_margin="8dp"/>
+
+    <ImageButton
+        android:id="@+id/scissorsButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/scissors"
+        android:background="@drawable/ripple_effect"
+        android:contentDescription="Qaychi"
+        android:scaleType="fitCenter"
+        android:layout_margin="8dp"/>
+</LinearLayout>
